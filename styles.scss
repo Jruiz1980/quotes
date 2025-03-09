@@ -1,14 +1,22 @@
 @import '_quote-box';
 
-:root {
-    --max-width: 900px;
-    --min-width: 300px;
-    --preferred-width: 80%;
-    --quoteColor: #b3d4e6;
+main {
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    background-color: beige;
 }
-.quote-box {
-    border-radius: 20px;
-    border: 4px solid var(--quoteColor);
-    width: clamp(var(--min-width), var(--preferred-width), var(--max-width));
-    margin: 0 auto;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-size: clamp(
+    var(--fluid-type-min, 1rem),
+    calc(1rem + var(--fluid-type-target, 3vw)),
+    var(--fluid-type-max, 1.3rem)
+    );
 }
