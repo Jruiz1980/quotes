@@ -37,14 +37,14 @@
 .quote-box__quote-author {
   text-align: right;
 }
-@media (max-width: 80px) {
+@media (max-width: 680px) {
   .quote-box__author-image {
     align-self: flex-end;
   }
 }
 .quote-box__author-image img {
   position: relative;
-  top: -4em;
+  top: 1rem;
   border: 4px solid var(--quoteColor);
   box-shadow: 10px 10px 0 var(--quoteColor);
   border-radius: 100%;
