@@ -1,0 +1,15 @@
+:root {
+  --max-width: 900px;
+  --min-width: 300px;
+  --preferred-width: 80%;
+  --quoteColor: #b3d4e6;
+}
+
+.quote-box {
+  border-radius: 20px;
+  border: 4px solid var(--quoteColor);
+  width: clamp(var(--min-width), var(--preferred-width), var(--max-width));
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=styles.css.map */

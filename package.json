@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "watch-sass": "sass --watch style.scss:style.css",
-  "compile-sass": "sass style.scss:style.css"
+  "watch-sass": "sass --watch styles.scss:styles.css",
+  "compile-sass": "sass styles.scss:style.css"
 },
   "repository": {
     "type": "git",
